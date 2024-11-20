@@ -1,5 +1,6 @@
 let hamburgerMenu = document.querySelector('.hamburger-menu');
+let navLinks = document.querySelector('.nav-links')
 
 hamburgerMenu.addEventListener('click', () => {
-    alert('I am clicked!')
+    navLinks.classList.toggle('active');
 })
